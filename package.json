@@ -16,5 +16,22 @@
   "bugs": {
     "url": "https://github.com/ollyvergithub/ReactJSTypescriptHooksRecoilTDDCleanArchitectureSOLID/issues"
   },
-  "homepage": "https://github.com/ollyvergithub/ReactJSTypescriptHooksRecoilTDDCleanArchitectureSOLID#readme"
+  "homepage": "https://github.com/ollyvergithub/ReactJSTypescriptHooksRecoilTDDCleanArchitectureSOLID#readme",
+
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "@types/node": "^13.13.5",
+    "@typescript-eslint/eslint-plugin": "^2.31.0",
+    "eslint": "^6.8.0",
+    "eslint-config-standard-with-typescript": "^11.0.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "git-commit-msg-linter": "^2.4.2",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.2",
+    "typescript": "^3.8.3"
+  }
 }
+
