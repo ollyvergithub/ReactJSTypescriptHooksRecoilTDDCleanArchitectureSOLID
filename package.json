@@ -1,8 +1,8 @@
 {
-  "name": "cursoudemyreactjstypescripthooksrecoiltddcleanarchitecturesolid",
+  "name": "clean-react",
   "version": "1.0.0",
   "description": "NodeJs Rest API using TDD, Clean Architecture and Typescript",
-  "author": "Ollyver Ottoboni",
+  "author": "Rodrigo Manguinho",
   "license": "GNU GPL3",
   "scripts": {
     "start": "webpack-dev-server --open",
