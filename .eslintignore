@@ -1,6 +1,7 @@
 node_modules
 .vscode
+/_material
+/.idea
 coverage
-public
+/public/js/
 *.scss
-/_material/
