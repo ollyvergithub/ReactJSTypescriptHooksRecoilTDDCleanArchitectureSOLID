@@ -3,6 +3,8 @@
 /_material
 /.idea
 
+/public/js/
+
 # dependencies
 /node_modules
 /.pnp
