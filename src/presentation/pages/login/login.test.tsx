@@ -11,7 +11,18 @@ describe('Login Page', () => {
 
   test('O botão de submit deve estar desabilitado até o preenchimento correto dos campos do form', () => {
     const { getByTestId } = render(<Login/>)
+    // as HTMLButtonElement cria um cache do elemento e com isso temos acessa ao .disabled
     const submitButton = getByTestId('submit') as HTMLButtonElement
     expect(submitButton.disabled).toBe(true)
+  })
+
+  test('Deve validar o estado inicial dos Spans dos Inputs Email e Senha', () => {
+    const { getByTestId } = render(<Login/>)
+    const emailStatus = getByTestId('email-status')
+    expect(emailStatus.title).toBe('Campo obrigatório')
+    expect(emailStatus.textContent).toBe('🔴')
+    const passwordStatus = getByTestId('password-status')
+    expect(passwordStatus.title).toBe('Campo obrigatório')
+    expect(passwordStatus.textContent).toBe('🔴')
   })
 })
